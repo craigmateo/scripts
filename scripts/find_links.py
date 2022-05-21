@@ -1,6 +1,5 @@
 # web crawler
 
-
 def get_next_target(s):
 	start_link = s.find('a href=')
 	if start_link == -1:
